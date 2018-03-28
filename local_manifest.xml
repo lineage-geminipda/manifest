@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="lineage-geminipda/android_device_planet_geminipda" path="device/planet/geminipda" remote="github" revision="cm-14.1" />
+  <project name="lineage-geminipda/android_vendor_planet_geminipda" path="vendor/planet/geminipda" remote="github" revision="cm-14.1" />
+  <project name="lineage-geminipda/android_kernel_planet_mt6797" path="kernel/planet/mt6797" remote="github" revision="cm-14.1" />
+
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project name="lineage-geminipda/android_system_core" path="system/core" remote="github" revision="cm-14.1" />
+  <project name="lineage-geminipda/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="cm-14.1" />
+  <project name="lineage-geminipda/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-14.1" />
+</manifest>
