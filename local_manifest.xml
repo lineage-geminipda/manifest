@@ -7,7 +7,9 @@
   <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
   <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
   <project name="lineage-geminipda/android_system_core" path="system/core" remote="github" revision="cm-14.1" />
   <project name="lineage-geminipda/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="cm-14.1" />
-  <project name="lineage-geminipda/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-14.1" />
+  <project name="deadman96385/android_frameworks_base" path="frameworks/base" remote="private" revision="cm-14.1" />
+  <project name="deadman96385/android_frameworks_native" path="frameworks/native" remote="private" revision="cm-14.1" />
 </manifest>
